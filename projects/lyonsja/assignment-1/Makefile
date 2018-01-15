@@ -24,7 +24,8 @@ clean-dvi:
 	rm -f ${TARGET}.dvi
 	rm -f ${TARGET}.out
 	rm -f ${TARGET}.toc
-
+	rm -f ${TARGET}.bbl
+	rm -f ${TARGET}.blg
 clean-ps: clean-dvi
 	rm -f ${TARGET}.ps
 

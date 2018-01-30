@@ -4,7 +4,6 @@
 
 
 
-
 \title{Fairbook}
 
 \author{A. Snow, C. McKenzie, C. Yang, J. Lyons, M. Zhang}
@@ -21,47 +20,161 @@
 	\section{Project Description}
 
 		\subsection{Approach}
-
+Our approach is to create a web app using HTML, CSS, and Javascript. Our target users will be college students. The problem that our app solves is the lack of a good solution for college students to sell back their textbooks after they are finished with them. The key difference between our approach and existing/previous approaches is the focus on peer-to-peer selling and a scaling cut of book prices as the business model. This is in contrast to the existing marketplaces that are either too generalized or employ exploitative pricing tactics designed to take advantage of students.
 
 		\subsection{Tools and Languages}
-
+The programming languages hat we plan to use are HTML (markup language), CSS, and Javascript. We have chosen these languages because they form the foundation of basic web development and there are many existing educational resources for them. We will probably also use Chrome Developer Tools, because they allow real-time editing/debugging.
 
 		\subsection{Requirements}
-
+With this project the functional requirements that we will have consist of storing and searching through a simple database. The non-functional requirements of this project consist of an easy to use interface and free use for users since it’s a web application.
 
 		\subsection{Documentation}
-
-
+The documentation that we plan to create in our system is minimal overall. We plan to have a clean, intuitive web interface that should be usable by anyone with basic computer skills. However, we do plan to incorporate a help button in the form of a question mark that will explain the interface. We also plan to include a FAQ section to explain the general process of selling/buying books, how local meetups work, how shipping works, etc.
 		\subsection{Features}
 
+The major features of the system are:
+
+Search \par
+Local Meetup \par
+Shipping \par
+Posting \par
+
+Two additional features that we hope to implement are:
+
+Integration with existing textbook databases to compare/calculate prices \par
+Intelligent, automatic pricing functionality
 
 
 	\section{Use Cases}
-
+Our project is called Textbook Buyback App--Fairbook, the purpose of it is allow students buying books in a lower price and selling it in a higher price. So, this app mainly involves three kinds of people, buyer, seller, and the app’s manager, and the app should primarily target those clients.
 		\subsection{Use case \#1: Search/Buy books}
+Name: Search/Buy books \par
+Goal: Allow user views all book as well as searches for books and allow user to buy a book or add to cart if he or she registers in the app and logs in in it. \par
+Actors: Viewer / Buyer \par
+Preconditions: \par
+\quad There is some book offered in the app. \par
+\quad The app is shared to public. \par
+\quad Registering is not required for searching books. \par
+Post conditions:
+        The app shows information of all exist books or required books to screen. \par
+        	\quad The app shows not found if the searched books is not existing. \par
+        \quad 	The app allow purchase if the user is log-in. \par
+	Flow of events: \par
+        	\quad User open the app. \par
+        \quad 	Optional: log-in or create account. \par
+        \quad 	View all books based on setting, such as upload data or type. \par
+        \quad 	Search for books. \par
+        \quad 	Buy books or add to cart if user is log-in. \par
+Quality requirements: The information of books is displayed based on preference, like upload data or quality, and user has he or she own file with cart and buying history.  
 
 
 
 
 		\subsection{Use case \#2: Offer books}
 
-
+Name: Offer books \par
+ Goal: Allow seller upload new books or sort previous books. Also, seller could sell books if someone buying. \par
+Actors: Seller \par
+Preconditions: \par
+        \quad 	Seller has register an account. \par
+        \quad 	He or she could sell books if there are some books under the account. \par
+Post conditions： \par
+        	\quad Seller upload new books to the system, and the system save the updated information. \par
+        	\quad Make deal with buyer. \par
+        	\quad Delete Books if they are sell. \par
+Flow of events： \par
+        \quad 	Log-in the account. \par
+       \quad 	Option 1: upload new book \par
+              \quad \quad       	Select upload new books. \par
+                  \quad \quad   	Fill the books’ information in certain format. \par
+             \quad \quad        	Upload changes. \par
+        	\quad Option 2: sell books \par
+                 \quad \quad    	Receive purchase information. \par
+                    	\quad \quad  Modify the book’s information. \par
+                    \quad \quad 	Delete the books if the seller does not have more than one this book. \par
+                    	\quad \quad  Shop the book according to the information.   \par      
 
 		\subsection{Use case \#3: Manage the app}
 
-
-
-		
+Name: Manage the app \par
+ Goal: Allow manager sorts the exist book and changes the books’ information if it not enter correct. Also, the app allow manger to change the app if needed. \par
+Actors: System manager \par
+Preconditions: \par
+      \quad  	Manager is log-in to the account. \par
+Post conditions: \par
+       \quad  	Manager modify some content if he or she find it is not correct. \par
+     \quad    	Manager change or update the app. \par
+Flow of events: \par
+      \quad   	A manager log into his or her account. \par
+    \quad     	Select operations. \par
+    \quad     	Change the app.     \par
+Quality requirements: \par
+     \quad    	The system allows modify it after running. \par
+ 
+Error Case: Deal is not complete because of seller. \par
+Description: The app allows making deal between students and there is not guarantee the good is like it described, or the seller ships it correct.
+Remedies: The app allows buyer to file a complaint and let manager involve in the deal.
 
 
 	\section{Planning}
+
+	
+		\subsection{Milestones/Tasks}
+
+    The tasks we have ahead of us will be to decide what kind of application we plan to use for designing the idea, how we are going to have the app setup, and how we will work as a team to accomplish the idea in a timely and orderly fashion. \par
+	
+	\quad We will be making a web application, which means we will be coding in HTMl, CSS and javascript.  We chose to make this app using web development because we figured that most people would rather use a website than just a phone application to buy and sell their expensive (or cheap) college books. In future group meetings we will establish how we want our site to look. We are going for a user friendly interface that is easy to navigate. We want students to be able to add their used textbooks to the site with a reliable source of communication, as well as be able to reliably search for a specific textbooks. \par
+	
+	\quad Each one of us will have a hand at the programming side of the project. We will divide the tasks among us based on their ability to accomplish the necessary tasks. We will use a repository on github where we can collaborate all our efforts. We can then also discuss in group meeting things that need to be adjusted or changed. 
+
+		\subsection{Schedule/Time}
+    (We have begun a schedule document in which we can update here.)
+		
+		\begin{tabular}{ | l | l | l | }
+		\hline
+		Tasks & Member & Time(weeks) \\ \hline
+		Web Page Layout & & 1 - 2	\\ \hline
+		Functionality to tabs and links & & 2 - 4 \\ \hline
+		Adding texbook & & 3 \\ \hline
+		Implement Search & & 4-5 \\	
+
+		\hline
+		\end{tabular}
+
+		
+
+		\subsection{Project Tracking}
+
+\quad In order for us to keep track of our progress, we will be having group meetings, either in person or via chat, to discuss what we have been able to accomplish. As a whole we will be keeping track of our project through github and the repository that we will be making for it.
+
+		\subsection{Risk Management}
+\quad We foresee there being few risks with this project. Risks that may take place are conflicts with team member schedules, time, understanding the instructions that are given, and being familiarity with the tools we use. As long as we stay in contact with each other and stay organized we should have no trouble completing our project. 
 
 
 
 	\section{Meeting Report}
 
+		\subsection{Progress Made}
+
+We have met up and discussed the ideas for the project, we decided to work as a group to fill out the documents rather than have individual people working on separate documents. The reason for this is to avoid strife between group members if someone doesn’t like what another person's document looks like. During the meeting, we settled on implementing this project as a web application.
+
+		\subsection{Plans/Goals for Next Week}
+
+Not sure yet, most likely get the basics for the site ready.
 
 
+		\subsection{Contribution of each team member}
+Everyone has been contributing. \par
+Mingyu Zhang--Use Cases \par
+Andrew Snow--Schedule, Planning, Meeting Report \par
+Cody McKenzie--Planning, Meeting Report, Schedule \par
+Jacob Lyons--Project Report and LaTeX formatting \par
+Cong Yang--Schedule, general info
+
+
+
+		\subsection{Customer}
+The customer happily met with the team and explained his ideas.
 
 
 

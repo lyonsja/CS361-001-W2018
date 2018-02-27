@@ -49,8 +49,54 @@
 
 
 	\section{Corresponding Tasks}
-
-
+		\begin{enumerate}
+		\item We need to set up a search box which let users type some keywords, and then the textbooks whose information contain the keywords will be shown. 
+		This task can be worked with task 7 since they are both about searching. 
+		It will take a pair of programmers about 2-3 hours to finish them. (future plan)
+		\item When the user click the “add to cart” button for a specific textbook, that textbook should be added to the list called “cart”. 
+		We should also make a class named “cart status” for each textbook, and give value “not-carted” initially. 
+		After the textbook is carted, its “cart status” should change to “carted”. 
+		When “add to cart” button is clicked, a check of “cart status” should happen in order to avoid repeat carting. 
+		If the textbook is carted already, a warning window will show up; otherwise, just keep going. 
+		It will take a pair of programmers 1-2 hours to finish. (next week)
+		\item	In the cart, we can click the “remove from cart” button to remove the specific textbook from “cart” list. 
+		Then the class “carted status” for that textbook should be changed to “not-carted”. 
+		This task should be processed with task 2 since they are both about cart. 
+		It should cost less than one more hour after task 2. (next week)
+		\item	We should give access of carting, ordering, managing account information, and so on, to logged-in users only. 
+		We will do some research online to add login section. 
+		It will cost 2-3 hours, maybe more, to finish it, since we need to do some research to figure it out before work on it. 
+		It would be better for us to process this task before task 2, 3, 5, 9, 10, since these operation all require access for login users. (future plan)
+		\item	We should link personal account information to specific login user. 
+		To change personal account information, we may need to do some research on how to use stripe.js. 
+		It may cost 2-3 hours or more, and most of time should be used on searching and trailing.(possibly)
+		\item Similar to task 5. After we finish task 5, we will spend less than one hour to finish this task.	
+		\item	The other one is set up a filter, which users will check the property of the textbooks which they want to search. 
+		Then the filter will show results according to the property checked which are stored as class name in the information of individual textbooks. 
+		This task can be worked with task 1 since they are both about searching. 
+		It will take a pair of programmers about 2-3 hours to finish them. (future plan)
+		\item When users are viewing textbooks list, they are at “textbooks” page. 
+		When they click on a specific book, it will redirect to the “textbook” page. 
+		Then specific information store in classes will be shown, such as price, condition, area, and so on. 
+		This task will take 1-2 hours to be done. (next week)	
+		\item	In the “textbook” page, there should be a drop-down section which shows different sellers who are selling this book. 
+		This should be processed after task 9 is finished. 
+		It should take about 1-2 hours to be finished. (future plan)
+		\item	In personal account page, we need to add to “sell your textbooks” button, which will call out a textbook information modal, which lets seller fill in the information of their textbooks.
+		 After they confirm the information, this new selling textbook will be added in “textbooks” page following the already existing ones. 
+		 Moreover, the new selling textbook will be stored under “selling” page in seller’s personal account. 
+		 This task should be worked on after task 4, 5 and 6 are finished. 
+		 It will take about 2 hours to make it finished. (future plan)
+		\item	We will add an “edit” button for each listing textbook. 
+		After seller clicks on it, the textbook information modal will be called out, but with existing information this time, different with the situation when seller wants to add a textbook. 
+		After seller changes the information, new information will replace the old one simply. 
+		This task should be worked on after task 10 is finished. 
+		It may take us 2-3 hours. (future plan)
+		\item	Whenever a new user is registered, it will be added to “user” list, which only manager has access to. 
+		From this problem of authority, we need a lot of search to make it work, so I think we are going to spend 1 or 2 days on it. 
+		This task can be done anytime, but just need to be done before our program is delivered to public/customers. (future plan)
+			
+		\end{enumerate}
 
 	\section{UML Sequence Diagrams/Spikes}
 		\includegraphics[width=16cm]{story1.eps}
@@ -71,8 +117,6 @@
  		\includegraphics[width=17cm]{story9.eps}
  		%\includegraphics[width=16cm]{story10.eps}
  		%\includegraphics[width=16cm]{story11.eps}
-
-
 
 	\section{The Stories due Next Week}
 		\begin{itemize}

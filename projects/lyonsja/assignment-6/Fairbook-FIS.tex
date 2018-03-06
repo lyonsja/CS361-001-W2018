@@ -1,0 +1,88 @@
+\documentclass[12pt]{article}
+\usepackage{url}
+
+\title{Fairbook: FIS}
+
+\author{A. Snow, C. McKenzie, C. Yang, J. Lyons, M. Zhang}
+
+\begin{document}
+	\maketitle
+
+
+	\tableofcontents
+	\section{ONIDs}
+		snowan, mckencod, yangco, lyonsja, zhangm4
+
+
+
+	\section{Product Release}
+	We have our web app code in a github repository with the URL: \url{https://github.com/lyonsja/CS361-Group14/tree/master}.
+	All that needs to be done is downloading the component files and opening index.html in your web browser (we only tested using Google Chrome). 
+	From there, it is possible to access the about page and detailed book view page from their respective links. 
+	The user can also return to the home page. 
+	There shouldn’t be any need to install additional software or libraries.
+
+
+	\section{User Story}
+	Story 8 As a User I can select a specific book so that I can view detailed information on it. \\
+	Cody, Jacob, and Cong worked on this story’s tasks. \\
+	We encountered few problems with this user story. The greatest obstacle was just ensuring that different members code/markup was properly integrated and compatible. This task took a total of around 4 hours to complete--split between the aforementioned members. We have the framework of this user story completed and tested thus far. A change we would want to make in the future is making the individual book pages dynamically created as sellers list new titles. \\
+	We didn’t really utilize our sequence diagram when completing this user story. This is mostly due to this story’s overall lack of complexity. There’s not any particular diagram we could think of that would have made our implementation of this story better. This story is just straightforward.
+
+
+	\section{Design changes and rationale}
+		This week we needed to diverge somewhat from our previously planned goals. 
+		We found that implementing the cart page encompassed a greater amount of work than our estimates had calculated. 
+		We did not end up having any particular questions for the customer; however, they were understanding when we contacted them requesting to narrow the scope this week. 
+		In some of our previous design documents, we had considered implementing a server for user verification etc.; however, now we are considering just using natively hosted JS for that functionality. 
+		We found this week’s assignment to represent an unfair jump in the amount of work required as compared to previous assignments. 
+		This is in light of the extensive amount of documentation required in addition to our members spending the majority of their efforts this week on actually trying to implement the user stories. 
+		Our group chose to spend effort moreso on implementation than documentation--which we have been entirely focusing on up until this point.
+
+
+	\section{Tests}
+
+		\begin{enumerate}
+		\item We can click a link on the navbar and it takes us where we want to go.
+
+		\item When clicking on the book it will show us what it is about and the people that are already looking to buy it.
+
+		\item There will be a cart feature that will store books the user wants to get.  The cart feature will have the ability to add books to itself or remove books from itself.
+		\end{enumerate}
+
+
+	\section{Meeting Report}
+
+		\subsection{Schedule for Next Week}
+		%\renewcommand{\arraystretch}{2}
+		\begin{tabular}{ | p{60mm} | l | l | }
+		\hline
+		User Story & Members & Time Estimate (hours) \\ \hline
+		\#4 User/Seller can log in to the website to gain additional privileges & All Members  & \~3-5	\\ \hline
+		\#9 Seller can list books for sale including detailed information & Mingyu, Andrew, Cody & \~3-4  \\ \hline
+		\#10 User can select to purchase books from multiple, unique sellers & Cong, Jacob & \~1-2 \\ \hline
+		\end{tabular}
+
+		\subsection{Progress Made}
+		This week we created a basic interface for our main page and cart pages. We have an HTML skeleton and some basic CSS. We were just able to implement this, the detailed book view page and some basic navigation. This at least fulfills user story 8.
+
+		\subsection{Plans/Goals for Next Week}
+		Next week we will most likely work on user stories \#9, 10 and 4. These stories mostly have to do with the seller side of our website. Only verified, logged-in users can list items for sale, so we will need at least a basic login system implemented first. Beyond that, we will connect our seller listings to the page display for users so that it is updated when a seller posts a new book. Also, we will work on displaying multiple sellers in the detailed book view page so the user can select which one they wish to buy from.
+
+		\subsection{Contributions of Each Member}
+			CSS--Cong \\
+			HTML--Cody, Cong, Jacob \\
+			Product Release--Jacob \\
+			Design Changes and Rationale-- Jacob \\
+			User Story--Jacob, Cong \\
+			Tests--Cody \\
+			JSON Database file--Mingyu, Andrew? \\
+			LaTeX--Jacob \\
+			Meeting Report--Jacob \\
+
+
+		\subsection{Customer}
+		Customer was understanding of some realistic goal changes we had to make this week. We narrowed the scope of what to accomplish this week slightly as members’ were busier than expected. Also, we perhaps underestimated the time investment required for the initial setup of the website.
+
+	\end {document}
+	
